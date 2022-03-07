@@ -97,7 +97,7 @@ export default class SearchScreen extends Component {
   //handleSearch = async text => {
     
 
-    /*si (enteredText[0] === "B") {
+    /*if (enteredText[0] === "B") {
       db.collection("transactions")
         .where("book_id", "==", text)
         .get()
