@@ -93,11 +93,11 @@ export default class SearchScreen extends Component {
       </View>
     );
   };
-//complete the function handleSearch()
+//completa la función handleSearch()
   //handleSearch = async text => {
     
 
-    /*if (enteredText[0] === "B") {
+    /*si (enteredText[0] === "B") {
       db.collection("transactions")
         .where("book_id", "==", text)
         .get()
@@ -120,13 +120,13 @@ export default class SearchScreen extends Component {
             <TextInput
               style={styles.textinput}
               onChangeText={text => this.setState({ searchText: text })}
-              placeholder={"Type here"}
+              placeholder={"Escribe aquí"}
               placeholderTextColor={"#FFFFFF"}
             />
             <TouchableOpacity
               style={styles.scanbutton}
             >
-              <Text style={styles.scanbuttonText}>Search</Text>
+              <Text style={styles.scanbuttonText}>Buscar</Text>
             </TouchableOpacity>
           </View>
         </View>
